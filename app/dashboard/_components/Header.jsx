@@ -15,10 +15,13 @@ function Header({hamBurger = false, handleMobileSidebar}) {
         />}
         <Link href="/dashboard">
           <Image
-            src={"/seedofocode_icon.png"}
+            // src={"/seedofocode_icon.png"}
+            src={"/courseGenie_icon.png"}
             alt="logo"
-            width={50}
-            height={50}
+            width={200}
+            height={70}
+             className="object-contain w-5 h-6 md:w-20 md:h-20 lg:w-20 lg:h-12"
+            
           />
         </Link>
       </div>

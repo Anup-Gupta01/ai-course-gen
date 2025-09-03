@@ -54,8 +54,8 @@ function SideBar() {
       <Image
         src={"/seedofocode_logo.png"}
         alt="logo"
-        width={150}
-        height={100}
+        width={220}
+        height={70}
       />
       <hr className="my-5" />
       <ul>
