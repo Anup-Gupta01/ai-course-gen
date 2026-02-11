@@ -36,11 +36,11 @@ import { Toaster } from "@/components/ui/sonner";
 const inter = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "SeedOfCode-AI-Course-Generator",
+  title: "CourseGenie-AI-Course-Generator",
   description:
     "AI Course Generator is a Next.js web app that lets users create and manage personalized coding courses.",
   icons: {
-    icon: "/seedofcode_icon.png",
+    icon: "/CourseGenie_icon.png",
   },
 };
 

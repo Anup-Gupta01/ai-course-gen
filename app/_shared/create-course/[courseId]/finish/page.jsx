@@ -128,7 +128,7 @@ function FinishScreen({ params }) {
           <div className="flex justify-center items-center gap-5 p-2 mt-2">
             <h2>Share : </h2>
             <WhatsappShareButton
-              title="Check out this course from SeedOfCode. "
+              title="Check out this course from CourseGenie. "
               url={`${
                 process.env.NEXT_PUBLIC_HOST_NAME +
                 "/course/" +
@@ -149,17 +149,17 @@ function FinishScreen({ params }) {
               }`}
               windowWidth={800}
               windowHeight={600}
-              subject={`SeedOfCode Course : ${course?.courseOutput?.CourseName}`}
-              body="Check out this course from SeedOfCode. "
+              subject={`CourseGenie Course : ${course?.courseOutput?.CourseName}`}
+              body="Check out this course from CourseGenie. "
               separator={`\nCourse Name : ${course?.courseOutput?.CourseName}\n Created By : ${course?.userName} \nClick on the link to view the course : `}
             >
               <EmailIcon size={30} round={true} />
             </EmailShareButton>
 
             <LinkedinShareButton
-              title="Check out this course from SeedOfCode. "
+              title="Check out this course from CourseGenie. "
               summary={`\nCourse Name : ${course?.courseOutput?.CourseName}\n Created By : ${course?.userName} \nClick on the link to view the course : `}
-              source={`https://seedofcode-ai-course-generator.vercel.app/`}
+              source={`https://CourseGenie-ai-course-generator.vercel.app/`}
               url={`${
                 process.env.NEXT_PUBLIC_HOST_NAME +
                 "/course/" +
