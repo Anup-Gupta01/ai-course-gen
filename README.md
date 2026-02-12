@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🚀 CourseGenie – AI-Powered Course Generator
+CourseGenie is an intelligent AI-driven platform that generates personalized courses with structured learning paths. It dynamically creates chapters and fetches relevant educational resources to enhance learner engagement.
 
-## Getting Started
+🔗 Live Demo: https://ai-course-gen-ruddy.vercel.app/
+📂 Repository: https://github.com/Anup-Gupta01/ai-course-gen
 
-First, run the development server:
+✨ Key Features
+🧠 AI Course Generation
+Powered by Gemini API
 
-```bash
+Difficulty levels: Beginner / Medium / Hard
+
+Dynamically generated chapters
+
+🎥 Smart Resource Integration
+
+Fetches relevant videos via YouTube Data API
+
+🗄️ Structured Data Management
+
+PostgreSQL database
+
+Drizzle ORM for type-safe queries
+
+🎨 Modern UI/UX
+
+Built with Next.js + Tailwind CSS
+
+Fully responsive & clean interface
+
+⚡ Performance Focused
+
+Optimized rendering & API calls
+
+Scalable architecture
+
+🛠️ Tech Stack
+
+Frontend
+
+Next.js
+
+Tailwind CSS
+
+Backend / APIs
+
+Next.js API Routes / Server Actions
+
+Gemini API
+
+YouTube Data API
+
+Database
+
+PostgreSQL
+
+Drizzle ORM
+
+Deployment
+
+Vercel
+
+🧠 How It Works
+
+1️⃣ User selects topic & difficulty
+2️⃣ Gemini API generates course structure
+3️⃣ YouTube API fetches video resources
+4️⃣ Data stored via PostgreSQL
+5️⃣ UI renders dynamic course
+
+🏗️ Architecture Overview
+User → Next.js Frontend → API Layer
+                         ↓
+          ┌──────── Gemini API (AI Generation)
+          │
+          ├──────── YouTube API (Video Resources)
+          │
+          └──────── PostgreSQL (Drizzle ORM)
+
+
+⚙️ Getting Started
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/coursegenie.git
+cd coursegenie
+
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Setup Environment Variables
+
+Create .env.local
+
+
+4️⃣ Run Development Server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Visit → http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📦 Available Scripts
+npm run dev
+npm run build
+npm run start
+npm run lint
 
-## Learn More
+🗄️ Database Design
 
-To learn more about Next.js, take a look at the following resources:
+Core entities:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Users
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Courses
 
-## Deploy on Vercel
+Chapters
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Resources
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Managed using Drizzle ORM for scalability & maintainability.
+
+🔮 Future Enhancements
+
+✨ Authentication system
+✨ Save & export courses
+✨ Progress tracking
+✨ AI-based quizzes
+✨ Dashboard analytics
