@@ -1,63 +1,44 @@
 🚀 CourseGenie – AI-Powered Course Generator
-CourseGenie is an intelligent AI-driven platform that generates personalized courses with structured learning paths. It dynamically creates chapters and fetches relevant educational resources to enhance learner engagement.
-
+is an intelligent AI-driven platform that generates personalized courses with structured learning paths. It dynamically creates chapters and fetches relevant educational resources to enhance learner engagement.
 🔗 Live Demo: https://ai-course-gen-ruddy.vercel.app/
 📂 Repository: https://github.com/Anup-Gupta01/ai-course-gen
 
 ✨ Key Features
 🧠 AI Course Generation
 Powered by Gemini API
-
 Difficulty levels: Beginner / Medium / Hard
-
 Dynamically generated chapters
 
 🎥 Smart Resource Integration
-
 Fetches relevant videos via YouTube Data API
 
 🗄️ Structured Data Management
-
 PostgreSQL database
-
 Drizzle ORM for type-safe queries
 
 🎨 Modern UI/UX
-
 Built with Next.js + Tailwind CSS
-
 Fully responsive & clean interface
 
 ⚡ Performance Focused
-
 Optimized rendering & API calls
-
 Scalable architecture
 
 🛠️ Tech Stack
-
 Frontend
-
 Next.js
-
 Tailwind CSS
 
 Backend / APIs
-
 Next.js API Routes / Server Actions
 
 Gemini API
-
 YouTube Data API
-
 Database
-
 PostgreSQL
-
 Drizzle ORM
 
 Deployment
-
 Vercel
 
 🧠 How It Works
@@ -106,19 +87,14 @@ npm run lint
 🗄️ Database Design
 
 Core entities:
-
 Users
-
 Courses
-
 Chapters
-
 Resources
 
 Managed using Drizzle ORM for scalability & maintainability.
 
 🔮 Future Enhancements
-
 ✨ Authentication system
 ✨ Save & export courses
 ✨ Progress tracking
